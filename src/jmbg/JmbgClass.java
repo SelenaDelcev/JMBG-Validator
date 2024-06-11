@@ -69,7 +69,7 @@ public class JmbgClass extends JFrame {
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
                 if (!Character.isLetter(c) && c != KeyEvent.VK_SPACE) {
-                    e.consume(); // Ignoriše karaktere koji nisu slova ili razmak
+                    e.consume();
                 }
             }
         });
@@ -79,7 +79,7 @@ public class JmbgClass extends JFrame {
             public void keyTyped(KeyEvent e) {
                 char c = e.getKeyChar();
                 if (!Character.isLetter(c) && c != KeyEvent.VK_SPACE) {
-                    e.consume(); // Ignoriše karaktere koji nisu slova ili razmak
+                    e.consume();
                 }
             }
         });
